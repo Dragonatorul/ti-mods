@@ -26,7 +26,7 @@ This example sets up a Build Environment using Visual Studio. Other code develop
 Unity Mod Manager can also be used to install and update Terra Invicta mods available on Nexus Mods.
 
 ## Install Unity (optional)
-* Required version is 2020.3.30f1 (64-bit). Last I checked the automatic download of Visual Studio Community 2019 with Unity install was broken (likely because Visual Studio has updated current version to 2022).
+* [Unity Download Archive](https://unity3d.com/get-unity/download/archive) Required version is 2020.3.49f1 (64-bit). Last I checked the automatic download of Visual Studio Community 2019 with Unity install was broken (likely because Visual Studio has updated current version to 2022).
 * TBD
 
 ## Create your first project in Visual Studio
