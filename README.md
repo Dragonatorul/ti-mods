@@ -18,12 +18,16 @@
   - Note that this is decompiled code, therefore lacks documentation and can be difficult to decipher.
 - [AssetStudio](https://github.com/Perfare/AssetStudio/releases): Allows decompiling the game's AssetBundles to see what's inside.
   - Currently the only known such utility that works with Unity 2020.
+- [UABEAvalonia](https://github.com/nesrak1/UABEA/releases): Unity Assets Bundle Extractor for editing AssetBundle files.
+  - Essential for creating custom map regions and modifying region boundaries.
 - [JSON to CSV](http://www.convertcsv.com/json-to-csv.htm): Enables easier editing of the game's configuration files in spreadsheet format.
 - [Navigable Tech Tree (maintained by Sarah)](https://sarahwatt.ca/terra-invicta/techtree/?lang=en) : Allows navigating the large tech tree outside the game.
 
 ## Tutorials
 - [Introduction to Importing Assets](tutorials/Custom%20Orgs.md)
 - [Creating Template JSON Mods](https://github.com/TROYTRON/ti-mods/blob/main/tutorials/Create_Template_JSON_mod.md)
+- [Creating Custom Maps and Regions](tutorials/MapCreation.md) - Comprehensive guide for creating custom regions with GeoJSON and SVG workflows
+- [Map and Region Data Extraction Guide](tutorials/Map%20and%20Region%20Data%20Extraction.md) - Extract region boundary data for web applications and visualization
 - [Building Code Mods](/tutorials/code-mods-with-umm.md)
 - [Reference Guide for Narrative Events](https://docs.google.com/document/d/1s3x96SyjvKFwx3pRSaMS7Zjo3FLwVVSLzSWzidT4CEo/edit)
 - [Making New Councillor Portraits](tutorials/Councillor%20Portraits.md)
