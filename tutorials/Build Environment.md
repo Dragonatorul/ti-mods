@@ -26,8 +26,16 @@ This example sets up a Build Environment using Visual Studio. Other code develop
 Unity Mod Manager can also be used to install and update Terra Invicta mods available on Nexus Mods.
 
 ## Install Unity (optional)
-* Required version is 2020.3.30f1 (64-bit). Last I checked the automatic download of Visual Studio Community 2019 with Unity install was broken (likely because Visual Studio has updated current version to 2022).
+* [Unity Download Archive](https://unity3d.com/get-unity/download/archive) Required version is 2020.3.49f1 (64-bit). Last I checked the automatic download of Visual Studio Community 2019 with Unity install was broken (likely because Visual Studio has updated current version to 2022).
 * TBD
+
+## Convert Terra Invicta to a debug build (optional)
+* To be able to attach a debugger to TI you will have to convert it from a release build to a debug build. This will allow you to set breakpoints and view local variables while the game is running.
+* It is strongly suggested that you make a copy of the game first and modify that as it will most likely negativly affect performance and may introduce crashes or other issues. Copying the entire TI folder is just fine. For example copy `C:\Steam\steamapps\common\Terra Invicta` to `C:\Terra Invicta Copy`
+* Install Unity if you haven't already. Navigate to `<path to unity>\Unity 2020.3.49f1\Editor\Data\PlaybackEngines\windowsstandalonesupport\Variations\win64_development_mono` copy the contents of the `Data` folder into the `TerraInvicta_Data` folder of the game install and replace everything. Copy `WindowsPlayer.exe` + `UnityPlayer.dll` + `WinPixEventRuntime.dll` into the game folder. Then rename `WindowsPlayer.exe` to `TerraInvicta.exe` replacing the old version.
+* In `doorstop_config.ini` set `debug_enabled = true` + `debug_address = 127.0.0.1:55555` + optionally `debug_suspend = false`
+* In `TerraInvicta_Data\boot.config` add `player-connection-debug=1` to the end of the file using any text editor.
+* I haven't been able to get DnSpy to attach to a copy of the game that was already started so open DnSpy and choose Debug menu `start debugging...` debug engine: Unity, executable: `<path to debug TI>\TerraInvicta.exe` port:55555. Terra Invicta should start and say Development Build in the bottom right and, if you enabled debug_suspend, break once Doorstop loads until you resume execution in DnSpy.
 
 ## Create your first project in Visual Studio
 * Open Visual Studio
