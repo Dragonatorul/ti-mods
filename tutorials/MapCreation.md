@@ -4,6 +4,7 @@ A comprehensive guide for creating custom maps, regions, and nations in Terra In
 
 ## Table of Contents
 - [Overview](#overview)
+- [⚠️ Disclaimer](#️-disclaimer)
 - [Required Tools](#required-tools)
 - [Understanding the Map System](#understanding-the-map-system)
 - [Method 1: Creating Custom Regions](#method-1-creating-custom-regions)
@@ -25,6 +26,12 @@ Creating custom regions requires:
 - Editing AssetBundle files
 - Updating multiple JSON template files
 - Ensuring all relationships (adjacencies, ownership, etc.) are properly configured
+
+## ⚠️ Disclaimer
+
+**This guide was researched, compiled, and formatted with the assistance of Claude Code AI.** While every effort has been made to ensure accuracy, the information presented here may contain errors or become outdated as the game is updated.
+
+**Please verify critical information** by consulting the original references provided in the [External Resources](#external-resources) section, particularly the Steam Community guides and official documentation. If you encounter issues or inaccuracies, please refer to the source materials and the Terra Invicta modding community for the most current information.
 
 ## Required Tools
 

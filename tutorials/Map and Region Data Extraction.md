@@ -4,6 +4,7 @@ This guide provides comprehensive information about how Terra Invicta's in-game 
 
 ## Table of Contents
 - [Overview](#overview)
+- [⚠️ Disclaimer](#️-disclaimer)
 - [File Locations](#file-locations)
 - [Data Structure](#data-structure)
 - [Required Tools](#required-tools)
@@ -19,6 +20,12 @@ Terra Invicta's map system stores region data in two distinct locations:
 2. **AssetBundles** - Contains actual polygon coordinates defining region boundaries
 
 The map uses a 3D coordinate system (Vector3) since regions are defined on a spherical globe representation of Earth.
+
+## ⚠️ Disclaimer
+
+**This guide was researched, compiled, and formatted with the assistance of Claude Code AI.** While every effort has been made to ensure accuracy, the information presented here may contain errors or become outdated as the game is updated.
+
+**Please verify critical information** by consulting the original references provided in the [References](#references) section, particularly the Steam Community guides and official documentation. If you encounter issues or inaccuracies, please refer to the source materials and the Terra Invicta modding community for the most current information.
 
 ## File Locations
 
